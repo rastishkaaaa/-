@@ -1,0 +1,188 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(138, 3, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+.btn{
+  background-color: rgba(255, 0, 0, 0);
+  border-style: none;
+}
+
+.showcase {
+  background: linear-gradient(rgb(31, 0, 0), rgb(53, 1, 1), rgb(104, 2, 2), rgb(138, 3, 3));
+  color: #fff;
+  height: 1100px;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase nav ul {
+  display: flex;
+  list-style: none;
+}
+.showcase nav li {
+  padding: 15px;
+}
+.showcase nav a {
+  color: #fff;
+}
+.showcase nav a:hover {
+  color: #ff0707;
+}
+.showcase .showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: centre;
+}
+.img1{
+  width: 60%;
+}
+.img2{
+  width: 65%;
+}
+.img3{
+  width: 35%;
+}
+.colortext{
+  color:#ffa807;
+  font-weight: 900;
+  font-style: italic;
+}
+.showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.header {
+  background: radial-gradient(rgb(32, 1, 1), rgb(121, 8, 8), rgb(222, 22, 22));
+  max-width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+
+@media (max-width: 700px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+  
+}
+.cnv {
+   display: flex;
+   margin: 40px auto;
+}
+.cnvs {
+   display: flex;
+   margin: 10px;
+   background: rgba(0, 0, 0, 0);
+}
+canvas {
+  margin-top: 60;
+   color: darkred;
+}
